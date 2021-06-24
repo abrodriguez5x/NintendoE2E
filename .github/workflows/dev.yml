@@ -13,4 +13,4 @@ jobs:
       - name: Install TestCafe and Running Tests
         uses: DevExpress/testcafe-action@latest
         with:
-          args: "chrome tests.js"
+          args: "chrome tests"
