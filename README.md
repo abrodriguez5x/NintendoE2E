@@ -1,2 +1,2 @@
 # NintendoE2E
-Nintendo E2E Automation
+Nintendo Webpage Automation
