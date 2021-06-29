@@ -1,5 +1,7 @@
 import { ClientFunction } from 'testcafe';
 import homepage from '../pages/HomePage';
+import gamesfeature from '../pages/GamesFeature';
+import hardwarefeature from '../pages/HardwareFeature';
 
 const URL = 'https://www.nintendo.com/';
 
@@ -16,7 +18,7 @@ test('Assert home page', async t => {
 
 test('Games Option Menu', async t => {
     await t
-        .click(homepage.GamesButton)
-        .click(homepage.ShopOption)
+        .click(gamesfeature.GamesButton)
+        .click(gamesfeature.ShopOption)
 
 });
