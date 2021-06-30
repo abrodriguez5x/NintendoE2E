@@ -22,3 +22,9 @@ test('Games Option Menu', async t => {
         .click(gamesfeature.ShopOption)
 
 });
+
+test('Hardware Option Menu', async t => {
+    await t
+        .click(hardwarefeature.HardwareButton)
+        .click(hardwarefeature.HardwareOption)
+})
