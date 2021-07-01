@@ -14,6 +14,9 @@ fixture("Nintendo WebPage Validation")
 test('Assert Home Page', async t => {
     await t
         .expect(getURL()).eql(URL)
+        .click(homepage.Finder)
+        .typeText(homepage.searchInput, 'Mario')
+        .pressKey('enter')
 
 });
 
